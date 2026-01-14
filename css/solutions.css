@@ -38,9 +38,12 @@
     position: relative;
 }
  .progress-fill::after {
-    content: 65%;
-    position:absolute;
-    right:5px;
-    top:50%;
+
     color:white;
- }
+    content: "65%";
+    position:absolute;
+    right:20px;
+    top:-4px;
+    font-size: 70%;
+    
+}
