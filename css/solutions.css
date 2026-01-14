@@ -33,3 +33,14 @@
     content:"⚡";
     font-size: 15px;
 }
+
+.progress-bar {
+    position: relative;
+}
+ .progress-fill::after {
+    content: 65%;
+    position:absolute;
+    right:5px;
+    top:50%;
+    color:white;
+ }
