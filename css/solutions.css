@@ -1,0 +1,11 @@
+.stats-container .stats-grid:nth-child(3) {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.stats-container .stats-grid:nth-child(3) .stat-number, .stats-container .stats-grid:nth-child(3) .stat-label {
+    color:white;
+  }  
+.workout-plan:hover {
+		box-shadow: 5px 10px;
+}
+
+article.workout-plan p.hover {color:red;}
